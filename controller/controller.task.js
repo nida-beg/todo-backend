@@ -34,7 +34,7 @@ exports.findAll = (req, res) => {
         })
         .catch(err => {
             res.status(500).send({
-                message: err.message || "some error occured while fething the tasks"
+                message: err.message || "some error occured while fetching the tasks"
             })
         })
 
