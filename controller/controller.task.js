@@ -14,7 +14,7 @@ exports.create = (req, res) => {
     task
         .save(task)
         .then(data => {
-            res.send({ message: "task added sucessfully", data: data });
+            res.send({ message: "task added successfully", data: data });
         })
 
         .catch(err => {
